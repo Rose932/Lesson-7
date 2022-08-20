@@ -1,0 +1,124 @@
+body,div,section,ul,li,p,small,span,table,th,td,h1,h2,h3,h4,h5,h6
+{
+    padding: 0;
+    margin: 0;
+}
+#navbar>ul{
+    display:flex;
+    list-style: none;
+}
+#navbar{
+    width:70%;
+    position: relative;
+    left:9%;
+}
+li {
+    padding-left:10px;
+    color:rgb(0, 58, 219);
+}
+#screen_heading{
+    align-items:center;
+    text-align:center;
+}
+#outer_container{
+    width:100vw;
+    display:flex;
+    justify-content:center;
+}
+
+#left_container{
+    width:60%;
+    height:90vh;
+}
+#right_container{
+    width:50%;
+    height:90vh;
+    background-color:rgb(136, 215, 241);
+}
+#table_container{
+    display:flex;
+}
+table{
+    width:max-content;
+    border:1px
+}
+table, th{
+    border:1px solid rgb(141, 227, 255);
+    background-color:rgb(255, 181, 250);
+}
+#market_indices_table,#commodities_table,
+#commodities_table,#thomson_reuters_table,
+#commodities_futures_table,#summary_table{
+    width:100%;
+}
+
+#currencies_table td{
+     align-items: right;
+}
+#currencies_table{
+    width: 100%;
+}
+
+.table_subheadings{
+    display:flex;
+    justify-content:space-between;
+}
+
+.right_table{
+    display:flex;
+    justify-content:space-between;
+}
+#sponsor_span{
+    display:flex;
+    width:100%;
+    justify-content:start;
+}
+#sponsor_span > h4{
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:5px;
+    background-color:rgb(197, 1, 1);
+    color:white;
+}
+#sponsor_span>p{
+    padding-top:5px;
+}
+#nav_section{
+    color:white;
+    background-color:rgb(39,39,172);
+    width:100%;
+}
+#nav_section li{
+    color:white;
+    background-color:rgb(19,19,87);
+    display:inline;
+    margin-right:10px;
+    padding-right:10px;
+    justify-content:space-evenly;
+    list-style:none;
+}
+#nav_section h2{
+    text-transform:uppercase;
+}
+#content_holder{
+    width:80vw;
+    display:flex;
+}
+#search_span{
+    padding:3px;
+    border: .5px solid black;
+    display:flex;
+    justify-content:space-around;
+}#search{
+    width:70%;
+    outline: 0;
+    border:0;
+    background-color: whitesmoke;
+}
+#search_span > label{
+    background-color: red;
+    color:white;
+    border-radius: 3px;
+    padding: 3px;
+    text-transform: uppercase;
+}
